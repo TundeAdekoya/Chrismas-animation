@@ -56,6 +56,7 @@ body{
     transform: translate(-50%, -70%);
     z-index: 12;
     animation: rotate 4s linear infinite;
+    background-clip: content-box;
 }
 
 /* star rotating */
@@ -69,6 +70,7 @@ body{
     height: 3.5rem;
     background-image: var(--color-star-light);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
+    background-clip: content-box;
 }
 
 @keyframes rotate{
@@ -190,6 +192,7 @@ body{
     height: 1rem;
     background-color: #fff;
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
+    background-clip: content-box;
     animation: falling-star 3s var(--delay) linear infinite backwards ;
     z-index: 2;
 }
@@ -227,6 +230,7 @@ body{
 .letter{
     background-image: var(--color-star-light);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
 }
