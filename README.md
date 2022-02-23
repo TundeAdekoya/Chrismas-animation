@@ -1,3 +1,3 @@
-# Chrismas-animation
+A Christmas tree animation for people who celebrate the christmas holiday. The aim of this project was to create an animation that provides people with a festive experience. The animation takes a minimalist approach towards design and development.
 A christmas tree animation using HTML and CSS only. This project was inspired by the holidays. 
 live at : https://tundeadekoya.github.io/Chrismas-animation/
